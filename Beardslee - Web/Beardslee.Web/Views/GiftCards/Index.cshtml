@@ -1,0 +1,33 @@
+﻿@model Beardslee.Web.Models.GiftCard
+
+@{
+    ViewBag.Title = "Gift Cards";
+}
+
+
+<!-- Gift Cards - Title Row -->
+<div class="container-fluid" id="gift-cards">
+    <div class="row title-row parallax-window" data-parllax="scroll" data-image-src="app/images/Story_Intro_Image.jpg">
+
+        <i class="fa fa-circle"></i>
+        <i class="fa fa-credit-card fa-4x"></i>
+        <i class="fa fa-circle"></i>
+    </div>
+</div>
+
+
+
+<gift-card-app></gift-card-app>
+
+
+
+@section Scripts {
+    <script src="https://unpkg.com/core-js/client/shim.min.js"></script>
+    <script src="https://unpkg.com/zone.js@0.8.4?main=browser"></script>
+    <script src="https://unpkg.com/systemjs@0.19.39/dist/system.src.js"></script>
+    <script src="/systemjs.config.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+        System.import('main').catch(function (err) { console.error(err); });
+    </script>
+}

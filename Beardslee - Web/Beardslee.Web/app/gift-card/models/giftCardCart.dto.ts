@@ -1,0 +1,37 @@
+﻿export class GiftCardCart {
+    GiftCardCartId: number;
+    WebsiteId: number;
+    UniqueIdentifier: string;
+    Status: number;
+    History: string;
+    Amount: number;
+    ShippingCost: number;
+    ShippingType: number;
+    ShippingValidation: boolean;
+    ShippingFirstName: string;
+    ShippingLastName: string;
+    ShippingAddress1: string;
+    ShippingAddress2: string;
+    ShippingCity: string;
+    ShippingState: string;
+    ShippingPostalCode: string;
+    ShippingPhone: string;
+    ShippingEmail: string;
+    BillingFirstName: string;
+    BillingLastName: string;
+    BillingAddress1: string;
+    BillingAddress2: string;
+    BillingCity: string;
+    BillingState: string;
+    BillingPostalCode: string;
+    BillingPhone: string;
+    BillingEmail: string;
+    AuthorizationCode: string;
+    TransationID: string;
+    CreatedOn: Date;
+    PurchasedOn: Date;
+    Message: string;
+    SpecialInstructions: string;
+    OrderTotal: number;
+    CreditCardType: string;
+}

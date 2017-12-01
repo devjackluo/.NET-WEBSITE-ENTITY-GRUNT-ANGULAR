@@ -1,0 +1,69 @@
+﻿
+
+/* Gift Cards */
+#gift-cards div.title-row {
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.gift-cards button.btn {
+    background-color: #251c10;
+    border-color: #251c10;
+    color: white;
+    font-size: 1.6em;
+    padding: 10px 40px;
+    margin: 10px;
+}
+
+    .gift-cards button.btn:hover {
+        background-color: #f6830b;
+        border-color: #f6830b;
+    }
+
+
+.gift-cards .panel-default {
+    border-color: #251c10;
+}
+
+    .gift-cards .panel-default > .panel-heading {
+        color: #fff;
+        background-color: #251c10;
+    }
+
+.gift-cards .btn-default{
+
+    color: white;
+    background-color: #251c10;
+    border-color: #999;
+}
+
+
+.gift-cards .btn-default:hover{
+
+        background-color: #f6830b;
+        border-color: #f6830b;
+}
+
+
+.gift-cards .btn{
+
+    padding: 10px 40px;
+    font-size: 1.6em;
+    border: none;
+    margin: 10px;
+}
+
+.gift-cards .input-group-addon{
+
+    background-color: #251c10;
+    color: #fff;
+
+}
+
+
+.gift-cards .input-group .form-control {
+    border-color: #251c10;
+}
