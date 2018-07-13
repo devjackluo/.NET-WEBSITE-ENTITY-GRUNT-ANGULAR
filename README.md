@@ -1,9 +1,6 @@
 # .NET-TWO-ENTITY-GRUNT-ANGULAR-
 
-Complete .NET replication of a site my professor created for a client. 
+The code is kind of obsolete as of 2018.
 
-.NET written with C# (not sure how to say this). 
+You have to setup local IIS website to run it.
 
-Bunch of Javascript libraries at work
-
-SQL database driven.
